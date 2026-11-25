@@ -23,7 +23,7 @@ export default function Game() {
     const [rodada, setRodada] = useState(0);
 
     // Tempo de exposição diminui conforme o nível aumenta
-    const tempoExposicao = Math.max(1500, 5000 - (nivel - 1) * 250);
+    const tempoExposicao = Math.max(1500, 2000 - (nivel - 1) * 250);
 
     // Recuperar recorde
     useEffect(() => {
